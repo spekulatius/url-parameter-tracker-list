@@ -1,9 +1,13 @@
 [
+  "ref",
   "utm_source",
   "utm_medium",
   "utm_campaign",
   "utm_term",
   "utm_content",
   "mc_cid",
-  "mc_eid"
+  "mc_eid",
+  "guccounter",
+  "guce_referrer",
+  "guce_referrer_sig"
 ]

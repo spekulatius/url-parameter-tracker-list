@@ -10,5 +10,7 @@
   "guccounter",
   "guce_referrer",
   "guce_referrer_sig",
-  "vgo_ee"
+  "vgo_ee",
+  "guid",
+  "deviceId"
 ]

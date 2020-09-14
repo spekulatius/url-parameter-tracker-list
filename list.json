@@ -12,5 +12,6 @@
   "guce_referrer_sig",
   "vgo_ee",
   "guid",
-  "deviceId"
+  "deviceId",
+  "__s"
 ]

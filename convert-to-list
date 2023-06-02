@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Check if jq is installed
+if ! command -v jq &>/dev/null; then
+    echo "jq is not installed. Please install jq and try again."
+    exit 1
+fi
+
+# Check if list.json file exists
+if [ ! -f "list.json" ]; then
+    echo "list.json file not found. Please make sure the file exists."
+    exit 1
+fi
+
+# Read the list from list.json file
+list=$(jq -r '.[]' list.json)
+
+# Save the formatted list to a file
+echo "$list" > list.txt
+
+echo "Conversion complete. The list has been saved to list.txt."

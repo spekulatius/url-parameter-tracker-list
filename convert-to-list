@@ -6,16 +6,13 @@ if ! command -v jq &>/dev/null; then
     exit 1
 fi
 
-# Check if list.json file exists
-if [ ! -f "list.json" ]; then
-    echo "list.json file not found. Please make sure the file exists."
+# Check if common-tracking-params.json file exists
+if [ ! -f "common-tracking-params.json" ]; then
+    echo "common-tracking-params.json file not found. Please make sure the file exists."
     exit 1
 fi
 
-# Read the list from list.json file
-list=$(jq -r '.[]' list.json)
+# Read the list from common-tracking-params.json file, save the formatted list to a file
+echo "$(jq -r '.[]' common-tracking-params.json)" > common-tracking-params.txt
 
-# Save the formatted list to a file
-echo "$list" > list.txt
-
-echo "Conversion complete. The list has been saved to list.txt."
+echo "Conversion complete. The list has been saved to common-tracking-params.txt."

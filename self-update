@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./convert-to-list
+
+git add common-tracking-params.txt
+git commit -m 'Auto update for lazy people like myself 🤖'
+git push

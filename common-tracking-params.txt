@@ -32,6 +32,6 @@ mkrid
 campid
 toolid
 customid
-igshid
+igsh*
 si
 sms_*

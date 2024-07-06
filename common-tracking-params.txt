@@ -35,3 +35,9 @@ customid
 igsh*
 si
 sms_*
+WT.mc_id
+WT.nav
+campaign_id
+hootPostID
+wprov
+__s

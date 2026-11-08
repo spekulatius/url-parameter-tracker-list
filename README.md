@@ -1,4 +1,4 @@
-# Commom URL Tracking Parameters
+# Common URL Tracking Parameters
 
 Keeping a list of URL parameters usually used for tracking here. These could be used to clean up user-generated content or build privacy-focused browser extensions.
 
